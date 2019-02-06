@@ -15,7 +15,7 @@ public class HelloWorld {
     @GET
     @Produces(MediaType.TEXT_PLAIN)
     public Response example() {
-        return Response.ok("Hello Ike! you have reached host " + System.getenv("HOSTNAME")).build();
+        return Response.ok("Hello Ike Relucio, you have reached host " + System.getenv("HOSTNAME")).build();
     }
 
 }
