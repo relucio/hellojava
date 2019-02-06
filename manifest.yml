@@ -5,5 +5,5 @@ applications:
   name: hellojava
   buildpack: liberty-for-java
   path: ./target/hellojava.zip
-  memory: 512M
+  memory: 256M
   random-route: true

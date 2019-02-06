@@ -1,4 +1,4 @@
-package com.ibm.esr.microservice.helloworld;    // you can change the package name
+package com.ibm.esr.microservice.helloworld; // you can change the package name
 
 import java.util.List;
 import javax.ws.rs.GET;
@@ -9,17 +9,13 @@ import javax.ws.rs.core.Response;
 import javax.ws.rs.core.Response.Status;
 import java.util.ArrayList;
 
-
-@Path("/helloworld")  // you can change the path to your microservice
+@Path("/helloworld") // you can change the path to your microservice
 public class HelloWorld {
-
 
     @GET
     @Produces(MediaType.TEXT_PLAIN)
     public Response example() {
-        return Response.ok("Hello World! you have reached host " + System.getenv("HOSTNAME")).build();
+        return Response.ok("Hello Ike! you have reached host " + System.getenv("HOSTNAME")).build();
     }
 
-
 }
-
