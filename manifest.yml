@@ -7,4 +7,5 @@ applications:
     - liberty-for-java
   path: ./target/hellojava.zip
   memory: 256M
-  random-route: true
+  routes:
+    - route: hellojava-smart-hyena.mybluemix.net
